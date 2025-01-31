@@ -7,18 +7,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="<?=base_url('/pages');?>">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="<?=base_url('/pages/about');?>">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
         </li>
-        
       </ul>
     </div>
   </div>
